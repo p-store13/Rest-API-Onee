@@ -102,7 +102,7 @@ app.use(function (req, res, next) {
     });
   }
 });
-CFonts.say('Zekais API', {
+CFonts.say('Onee API', {
   font: 'block',
   align: 'center',
   gradient: ['red', 'magenta']
