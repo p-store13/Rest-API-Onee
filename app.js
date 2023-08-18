@@ -19,7 +19,7 @@ const { connectMongoDb } = require('./database/connect');
 const { getApikey } = require('./database/db');
 const { port } = require('./lib/settings');
 
-const PORT = process.env.PORT || port;
+const PORT = process.env.PORT || 3000
 
 connectMongoDb();
 
